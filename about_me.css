@@ -1,0 +1,166 @@
+@import "base.css"; 
+
+body {
+    max-width: 600px;
+    margin: auto;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    display: flex;
+    padding: 50px 20px 0 20px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo-container {
+    width: 20%;
+}
+
+.logo-container img {
+    width: 65px;
+}
+
+h2 {
+    padding: 2rem 0;
+    font-size: 2rem;
+}
+
+h3 {
+    color: var(--secondary_text_color);
+    font-weight: 500;
+    padding-bottom: 1rem;
+}
+
+.text-with-icon {
+    display: flex;
+}
+
+.text-with-icon img {
+    padding-right: 4px;
+}
+
+.green-text {
+    background-color: var(--green_light_color);
+    color: var(--green_dark_color);
+    margin-bottom: 1rem;
+    font-size: 18px;
+    padding: 4px 16px;
+    border-radius: 50px;
+}
+
+.article-header {
+    padding: 0;
+}
+
+.article-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+article {
+    border-bottom: 2px solid var(--secondary_text_color);
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+
+.top-nav-container {
+    display: none;
+}
+
+.page-footer {
+    padding-top: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    color: var(--secondary_text_color);
+}
+
+@media (min-width: 1024px) {
+
+    body {
+        margin: auto;
+        max-width: 1024px;
+    }
+
+    section {
+        width: 60%;
+    }
+
+    header {
+        align-items: center;
+    }
+
+    .top-nav-container {
+        display: flex;
+        flex-direction: row;
+        margin-top: 0;
+        flex-grow: 1;
+        text-align: center;
+        align-items: center;
+    }
+
+    .hamburger-container {
+        display: none;
+    }
+
+    .top-nav-list {       
+        display: flex; 
+        flex-direction: row;
+        flex-grow: 1;
+        justify-content: flex-end;
+    }
+
+    .top-nav-list p {
+        padding: 0 30px;
+        font-weight: 500;
+        list-style: none;
+        margin: 5px
+    }
+
+    .top-nav-list a {
+        color: var(--secondary_text_color);
+        text-decoration: none;
+    }
+
+    .link-icons {
+        display: flex;
+        width: auto;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 0;
+        
+    }
+
+    .link-icon {
+        padding-left: 10px;
+    }
+
+    .top-nav-container {
+        justify-content: flex-end;
+    }
+
+    h2 {
+        font-size: 3rem;
+        color: var(--tertiary_text_color);
+    }
+
+
+
+    .article-content {
+        display: flex;
+    }
+
+    .text-with-icon {
+        padding-right: 70px;
+    }
+
+    .page-footer {
+        padding: 50px 0 30px 0;
+    }
+}
