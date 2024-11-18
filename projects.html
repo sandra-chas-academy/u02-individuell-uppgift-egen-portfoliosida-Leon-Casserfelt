@@ -4,10 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./projects.css">
+    <script src="menu.js" defer></script>
     <title>Document</title>
 </head>
 <body>
-    <header>
+
+    <div class="dropdown" id="menu">
+        <nav class="menu-nav-list">
+            <p><a href="index.html">Home</a></p>
+            <p><a href="about_me.html">About</a></p>
+            <p><a href="#">Technologies</a></p>
+            <p><a href="./projects.html">Projects</a></p>
+            <p><a href="contact.html">Contact</a></p>
+            <div class="closebtn" id="closebtn">
+                <p>close</p>
+            </div>
+            
+        </nav>
+    </div>
+
+    <header id="header">
         <div class="logo-container">
             <img src="./images/logo-1.png" alt="logo">
         </div>
@@ -25,7 +41,7 @@
                     <img class="link-icon" src="./images/entypo-social_linkedin-with-circle.png" alt="linkedin">
                 </nav>
         </div>
-        <div class="hamburger-container">
+        <div class="hamburger-container" id="hamburger">
             <img src="./images/hamburger-menu-4-32.png" alt="hamburger menu">
         </div>
     </header>

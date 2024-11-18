@@ -91,6 +91,45 @@ container footer a {
     color: var(--secondary_text_color);
 }
 
+.dropdown {
+    display: none;
+    padding: 50px 0;
+    background-color: lightgray;
+    border: 2px solid black;
+    border-top-style: none;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.menu-nav-list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-align: center;
+}
+
+.menu-nav-list a {
+    text-decoration: none;
+    color: var(--primary_text_color);
+}
+
+.menu-nav-list p {
+    margin: 5px;
+    font-weight: 600;
+}
+
+.closebtn {
+    margin: 10px auto;
+    background-color: lightgray;
+    border: 2px solid black;
+    width: 100px;
+}
+
+.closebtn:hover {
+    background-color: gray;
+}
+
+
 @media (min-width: 1024px) {
     body {
         margin: auto;
