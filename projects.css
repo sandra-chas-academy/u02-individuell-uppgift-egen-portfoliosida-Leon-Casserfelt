@@ -29,6 +29,14 @@ header {
     box-shadow: -3px 3px 30px rgba(54, 49, 49, 0.336) ;
     border-radius: 30px;
     margin-bottom: 50px;
+    background-color: white;
+}
+
+.modal {
+    box-shadow: -3px 3px 30px rgba(54, 49, 49, 0.336) ;
+    border-radius: 30px;
+    margin-bottom: 50px;
+    background-color: white;
 }
 
 .second-header-container {
@@ -130,6 +138,8 @@ container footer a {
 }
 
 
+
+
 @media (min-width: 1024px) {
     body {
         margin: auto;
@@ -212,5 +222,9 @@ container footer a {
         display: block;
         padding-top: 10px;
         
+    }
+
+    .modal {
+        border-radius: 55px;
     }
 }
