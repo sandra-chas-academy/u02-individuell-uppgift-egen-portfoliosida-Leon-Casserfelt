@@ -1,0 +1,54 @@
+{
+    "educations": [
+        {
+            "field": "Fullstack web development",
+            "school": "Chas academy",
+            "location": "Stockholm",
+            "type": "full time",
+            "duration": "sep 2024 - present"
+        },
+        {
+            "field": "Fullstack web development",
+            "school": "Youtube, Google, Pluralsight",
+            "location": "Online",
+            "type": "free time",
+            "duration": "mar 2024 - sep 2024"
+        },
+        {
+            "field": "Game development",
+            "school": "Nacka strands gymnasium",
+            "location": "Stockholm",
+            "type": "full time",
+            "duration": "aug 2020 - jul 2023"
+        }
+    ],
+    "workexperience": [
+        {
+            "field": "Unemployment",
+            "companyname": "Null",
+            "location": "Stockholm",
+            "type": "full time",
+            "duration": "jul 2023 - nov 2023"
+        },
+        {
+            "field": "Call salesman",
+            "companyname": "iSales",
+            "location": "Stockholm",
+            "type": "full time",
+            "duration": "nov 2023 - nov 2023"
+        },
+        {
+            "field": "Unemployment",
+            "companyname": "Null",
+            "location": "Stockholm",
+            "type": "full time",
+            "duration": "nov 2023 - sep 2024"
+        }
+
+    ],
+    "_comment" : [
+        {
+            "jag har inte så mycket": "arbetserfarenhet"
+        }
+    ]
+}

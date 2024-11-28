@@ -1,0 +1,153 @@
+@import "base.css";
+
+body {
+    max-width: 600px;
+    margin: auto;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    display: flex;
+    padding: 50px 20px 0 20px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo-container {
+    width: 20%;
+}
+
+.hamburger-container {
+    width: 20%;
+    text-align: right;
+}
+
+.top-nav-container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.link-icons {
+    padding-top: 16px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+
+.top-nav-list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-align: center;
+}
+
+.top-nav-list a {
+    text-decoration: none;
+    color: var(--primary_text_color);
+}
+
+.top-nav-list p {
+    margin: 5px;
+    font-weight: 600;
+}
+
+.profile-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    font-size: 2rem;
+    font-weight: 600;
+    padding-top: 200px;
+}
+
+.profile-text img {
+    margin-top: 2rem;
+}
+
+.logo-container img {
+    width: 65px;
+}
+
+footer {
+    display: none;
+}
+
+@media (min-width: 1024px) {
+
+    body {
+        margin: auto;
+        max-width: 1024px;
+    }
+
+    header {
+        align-items: center;
+    }
+
+    .top-nav-container {
+        flex-direction: row;
+        margin-top: 0;
+        align-items: center;
+    }
+
+    .hamburger-container {
+        display: none;
+    }
+
+    .top-nav-list {        
+        flex-direction: row;
+        flex-grow: 1;
+        justify-content: flex-end;
+    }
+
+    .top-nav-list p {
+        padding: 0 30px;
+        font-weight: 500;
+    }
+
+    .top-nav-list a {
+        color: var(--secondary_text_color);
+    }
+
+    .link-icons {
+        width: auto;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 0;
+    }
+
+    .link-icon {
+        padding-left: 10px;
+    }
+
+    .top-nav-container {
+        justify-content: flex-end;
+    }
+
+    .profile-text {
+        padding-top: 250px;
+        font-size: 3rem;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .page-footer {
+        display: block;
+        position: fixed;
+        padding: 50px 0 30px 0;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: white;
+        text-align: center;
+        color: var(--secondary_text_color);
+    }
+
+    .profile-text {
+        color: var(--tertiary_text_color);
+    }
+}
