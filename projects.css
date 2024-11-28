@@ -229,6 +229,9 @@ container footer a {
 
     .modal {
         border-radius: 55px;
+        width: 600px;
+        height: 600px;
+        margin: auto;
     }
 
     .project-preview-img {
