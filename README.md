@@ -64,14 +64,27 @@ Du visar att du kan utan brister, eller bara i sådan omfattning att de knappt m
 * Du börjar och lämnar in din uppgift genom Github Classroom på denna länk.
 * Återkoppling ges i Canvas
 
+## Sammanfattning och teoretiska frågor
+### Sammanfattning
+I detta projekt har jag gett funktionalitet till ett tidigare projekt med hjälp av Javascript och Json. Det första jag gjorde var en meny för mobile layouten som visas när man klickar på hamburger ikonen. Denna meny används för att navigera mellan sidorna i mobile layouten. Efter det skapade jag en Modal för projekten i Projects sidan. Det sista jag gjorde var att läsa in datan för About sidan med Json istället för att skriva texten i HTML. Sidan är uppladdad på netlify https://u02leoncasserfelt.netlify.app/.
 
+Den största styrkan med sidan är att innehållet går att ändra enkelt för att göra en riktig CV sida. Om jag forsatte jobba på den här sidan hade jag sparat all information i Json för att göra detta ennu enklare.
 
+Två stora svagheter med sidan är att den har ett par buggar som jag inte hunnit fixa och att koden som skapar HTML på About sidan är väldigt dåligt skriven. Om jag gjorde om sidan hade jag velat hitta en bättre lösning för det.
 
+### teoretiska frågor
 
+Vad kan man utveckla m.h.a av Javascript inom frontend?
 
+Man kan använda Javascript för nästan allt inom frontend. Javascript är såklart bäst för att skapa funktionalitet men det går också att använda för att skapa innehåll på sidan som jag har gjort på About sidan.
 
+Vad är JSON och hur används det inom frontend?
 
+Json står för JavaScript Object Notation och det används för att spara och flytta data. till exempel från local storage till klienten.
 
+Vad är HTTP och varför bör man som frontendutvecklare ha kunskap om det och dess protokoll?
 
+HTTP står för Hypertext Transfer Protocol och det används för att kommunisera mellan webservrar. Till exempel används det för att ladda hemsidor med länkar.
 
-# 
+## länk till sidan
+https://u02leoncasserfelt.netlify.app/
