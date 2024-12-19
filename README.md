@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/Y0f03qEq)
 # Instruktioner
 
 Denna uppgift går ut på att du bygga vidare uppgift u01 - Portfoliosida utifrån designskiss med Javascript. Du är nu fri att ändra till egen design / layout, samt eget innehåll. Det är dock viktigt att du behåller en sektion för CV ("About me") och en sektion med projekt ("Projects") eftersom du ska vidareutveckla sidan med Javascript på dessa sektioner. 
@@ -63,14 +64,27 @@ Du visar att du kan utan brister, eller bara i sådan omfattning att de knappt m
 * Du börjar och lämnar in din uppgift genom Github Classroom på denna länk.
 * Återkoppling ges i Canvas
 
+## Sammanfattning och teoretiska frågor
+### Sammanfattning
+I detta projekt har jag gett funktionalitet till ett tidigare projekt med hjälp av Javascript och Json. Det första jag gjorde var en meny för mobile layouten som visas när man klickar på hamburger ikonen. Denna meny används för att navigera mellan sidorna i mobile layouten. Efter det skapade jag en Modal för projekten i Projects sidan. Det sista jag gjorde var att läsa in datan för About sidan med Json istället för att skriva texten i HTML. Sidan är uppladdad på netlify https://u02leoncasserfelt.netlify.app/.
 
+Den största styrkan med sidan är att innehållet går att ändra enkelt för att göra en riktig CV sida. Om jag forsatte jobba på den här sidan hade jag sparat all information i Json för att göra detta ennu enklare.
 
+Två stora svagheter med sidan är att den har ett par buggar som jag inte hunnit fixa och att koden som skapar HTML på About sidan är väldigt dåligt skriven. Om jag gjorde om sidan hade jag velat hitta en bättre lösning för det.
 
+### teoretiska frågor
 
+Vad kan man utveckla m.h.a av Javascript inom frontend?
 
+Man kan använda Javascript för nästan allt inom frontend. Javascript är såklart bäst för att skapa funktionalitet men det går också att använda för att skapa innehåll på sidan som jag har gjort på About sidan.
 
+Vad är JSON och hur används det inom frontend?
 
+Json står för JavaScript Object Notation och det används för att spara och flytta data. till exempel från local storage till klienten.
 
+Vad är HTTP och varför bör man som frontendutvecklare ha kunskap om det och dess protokoll?
 
+HTTP står för Hypertext Transfer Protocol och det används för att kommunisera mellan webservrar. Till exempel används det för att ladda hemsidor med länkar.
 
-# 
+## länk till sidan
+https://u02leoncasserfelt.netlify.app/
